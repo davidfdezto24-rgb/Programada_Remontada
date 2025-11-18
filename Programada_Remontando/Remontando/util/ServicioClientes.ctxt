@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ServicioClientes
+comment0.text=\r\n\ Servicio\ encargado\ de\ gestionar\ todas\ las\ operaciones\ relacionadas\r\n\ con\ los\ clientes\ del\ sistema.\ \r\n\ Las\ operaciones\ contempladas\ incluyen\:\ registrar\ clientes,\ buscar\r\n\ clientes,\ eliminar\ clientes\ y\ devolver\ una\ lista\ ordenada\ por\ nombre.</p>\r\n
+comment1.params=id\ nombre\ correo
+comment1.target=Remontando.model.Cliente\ registrar(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Registra\ un\ nuevo\ cliente\ despu\u00E9s\ de\ validar\ sus\ datos.\r\n\ @param\ id\ identificaci\u00F3n\ \u00FAnica\ del\ cliente\r\n\ @param\ nombre\ nombre\ completo\ del\ cliente\r\n\ @param\ correo\ correo\ electr\u00F3nico\ del\ cliente\r\n\ @return\ el\ cliente\ registrado\r\n\ @throws\ IllegalArgumentException\ si\ los\ datos\ no\ son\ v\u00E1lidos\ o\ si\ el\ ID\ ya\ existe\r\n
+comment2.params=id
+comment2.target=Remontando.model.Cliente\ buscar(java.lang.String)
+comment2.text=\r\n\ Busca\ un\ cliente\ en\ memoria\ por\ su\ ID.\r\n\ @param\ id\ identificaci\u00F3n\ del\ cliente\r\n\ @return\ el\ cliente\ encontrado\ o\ null\ si\ no\ existe\r\n
+comment3.params=id
+comment3.target=boolean\ eliminar(java.lang.String)
+comment3.text=\r\n\ Elimina\ un\ cliente\ del\ sistema,\ pero\ mantiene\ los\ instrumentos\ \r\n\ asociados\ en\ la\ lista\ global\ (seg\u00FAn\ requerimientos\ del\ proyecto).\r\n\ @param\ id\ identificaci\u00F3n\ del\ cliente\ a\ eliminar\r\n\ @return\ true\ si\ el\ cliente\ fue\ eliminado,\ false\ si\ no\ exist\u00EDa\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ listarOrdenados()
+comment4.text=\r\n\ Devuelve\ una\ lista\ ordenada\ alfab\u00E9ticamente\ por\ nombre\ del\ cliente.\r\n\ La\ lista\ retornada\ es\ una\ copia,\ protegiendo\ as\u00ED\ la\ lista\ global\ en\ Memoria.\r\n\ @return\ lista\ de\ clientes\ ordenados\ por\ nombre\r\n
+numComments=5

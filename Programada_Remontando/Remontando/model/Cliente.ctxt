@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Cliente
+comment0.text=\r\n\ Representa\ un\ cliente\ del\ sistema,\ el\ cual\ puede\ registrar\ uno\ o\ m\u00E1s\r\n\ instrumentos\ de\ ahorro\ o\ inversi\u00F3n.\ Contiene\ la\ informaci\u00F3n\ b\u00E1sica\ del\ cliente\r\n\ y\ la\ lista\ de\ instrumentos\ asociados.\r\n
+comment1.params=id\ nombre\ correo\ codigo
+comment1.target=Cliente(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Crea\ un\ nuevo\ cliente\ con\ los\ datos\ b\u00E1sicos.\r\n\ @param\ id\ identificaci\u00F3n\ del\ cliente\r\n\ @param\ nombre\ nombre\ completo\r\n\ @param\ correo\ correo\ electr\u00F3nico\ v\u00E1lido\r\n\ @param\ codigo\ c\u00F3digo\ asignado\ autom\u00E1ticamente\r\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\r\n\ Obtiene\ la\ identificaci\u00F3n\ del\ cliente.\r\n\ @return\ id\ del\ cliente\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment3.text=\r\n\ Obtiene\ el\ nombre\ completo\ del\ cliente.\r\n\ @return\ nombre\ del\ cliente\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCorreo()
+comment4.text=\r\n\ Obtiene\ el\ correo\ electr\u00F3nico\ del\ cliente.\r\n\ @return\ correo\ del\ cliente\r\n
+comment5.params=
+comment5.target=java.lang.String\ getCodigo()
+comment5.text=\r\n\ Obtiene\ el\ c\u00F3digo\ asignado\ al\ cliente.\r\n\ @return\ c\u00F3digo\ del\ cliente\r\n
+comment6.params=instrumento
+comment6.target=void\ agregarInstrumento(Instrumento)
+comment6.text=\r\n\ Agrega\ un\ instrumento\ a\ la\ lista\ del\ cliente.\r\n\ @param\ instrumento\ instrumento\ a\ registrar\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getInstrumentos()
+comment7.text=\r\n\ Obtiene\ la\ lista\ completa\ de\ instrumentos\ del\ cliente.\r\n\ @return\ lista\ de\ instrumentos\ asociados\r\n
+numComments=8

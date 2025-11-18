@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ServicioInstrumentos
+comment1.params=tipo\ monto\ dias\ moneda\ clienteId
+comment1.target=Remontando.model.Instrumento\ crear(java.lang.String,\ double,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=cli\ tipo\ monto\ dias\ moneda
+comment2.target=Remontando.model.Instrumento\ registrar(Remontando.model.Cliente,\ java.lang.String,\ double,\ int,\ java.lang.String)
+comment3.params=cli
+comment3.target=java.util.ArrayList\ listarPorCliente(Remontando.model.Cliente)
+comment4.params=
+comment4.target=java.util.ArrayList\ listarGlobal()
+numComments=5

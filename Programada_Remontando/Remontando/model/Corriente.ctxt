@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Corriente
+comment0.text=\r\n\ Representa\ una\ cuenta\ corriente.\ Solo\ permite\ moneda\ CRC\r\n\ y\ aplica\ tasas\ seg\u00FAn\ el\ monto\ invertido.\r\n
+comment1.params=monto\ dias\ moneda\ clienteId
+comment1.target=Corriente(double,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Crea\ una\ cuenta\ corriente.\r\n\ @param\ monto\ monto\ invertido\r\n\ @param\ dias\ d\u00EDas\ de\ permanencia\r\n\ @param\ moneda\ debe\ ser\ CRC\r\n\ @param\ clienteId\ c\u00F3digo\ del\ cliente\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=
+comment3.target=double\ calcularInteres()
+comment4.params=
+comment4.target=double\ calcularRendimiento()
+numComments=5

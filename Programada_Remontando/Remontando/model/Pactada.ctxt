@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pactada
+comment0.text=\r\n\ Representa\ una\ inversi\u00F3n\ a\ la\ vista\ pactada.\r\n\ Permite\ CRC\ y\ USD\ seg\u00FAn\ reglas\ del\ negocio.\r\n
+comment1.params=monto\ dias\ moneda\ clienteId
+comment1.target=Pactada(double,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Crea\ una\ inversi\u00F3n\ pactada.\r\n\ @param\ monto\ monto\ invertido\r\n\ @param\ dias\ plazo\ total\r\n\ @param\ moneda\ CRC\r\n\ @param\ clienteId\ c\u00F3digo\ del\ cliente\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=
+comment3.target=double\ calcularInteres()
+comment4.params=
+comment4.target=double\ calcularRendimiento()
+numComments=5

@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Memoria
+comment0.text=\r\n\ Clase\ utilitaria\ que\ almacena\ en\ memoria\ principal\ las\ listas\ globales\r\nLas\ listas\ se\ declaran\ como\ p\u00FAblicas\ para\ que\ los\ servicios\ puedan\r\n\ manipularlas\ directamente,\ siguiendo\ el\ enfoque\ simple\ y\ arcaico\ solicitado\r\n\ en\ este\ proyecto\ acad\u00E9mico.</p>\r\n
+numComments=1

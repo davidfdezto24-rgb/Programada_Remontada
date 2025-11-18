@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelListarInstrumentosCliente
+comment0.text=\r\n\ Panel\ gr\u00E1fico\ encargado\ de\ mostrar\ todos\ los\ instrumentos\ asociados\r\n\ a\ un\ cliente\ espec\u00EDfico.\ Permite\ ingresar\ un\ ID\ y\ visualizar\ la\ lista\r\n\ ordenada\ de\ instrumentos,\ cumpliendo\ la\ separaci\u00F3n\ de\ responsabilidades,\r\n\ ya\ que\ toda\ la\ l\u00F3gica\ de\ negocio\ se\ delega\ a\ los\ servicios.\r\n\r\n\ <p>Este\ panel\ es\ parte\ de\ la\ vista\ (GUI)\ y\ \u00FAnicamente\ controla\ la\ interacci\u00F3n\r\n\ con\ el\ usuario\ y\ el\ formato\ de\ salida,\ sin\ modificar\ datos\ ni\ aplicar\ reglas\r\n\ de\ negocio.</p>\r\n
+comment1.params=sClientes\ sInstrumentos
+comment1.target=GUIPanelListarInstrumentosCliente(Remontando.util.ServicioClientes,\ Remontando.util.ServicioInstrumentos)
+comment1.text=\r\n\ Construye\ el\ panel\ que\ lista\ los\ instrumentos\ de\ un\ cliente.\r\n\r\n\ @param\ sClientes\ servicio\ encargado\ de\ gestionar\ los\ clientes\r\n\ @param\ sInstrumentos\ servicio\ encargado\ de\ gestionar\ los\ instrumentos\r\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelListarClientes
+comment0.text=\r\n\ Panel\ gr\u00E1fico\ encargado\ de\ mostrar\ todos\ los\ clientes\ registrados\r\n\ en\ el\ sistema,\ ordenados\ alfab\u00E9ticamente\ por\ nombre.\ Este\ panel\r\n\ forma\ parte\ de\ la\ vista\ (GUI)\ y\ \u00FAnicamente\ controla\ la\ interacci\u00F3n\r\n\ con\ el\ usuario,\ sin\ involucrarse\ en\ la\ l\u00F3gica\ de\ negocio.\r\n\r\n\ <p>La\ funcionalidad\ de\ obtenci\u00F3n\ y\ ordenamiento\ de\ datos\ se\ delega\r\n\ completamente\ al\ servicio\ ServicioClientes,\ cumpliendo\ as\u00ED\ con\ la\r\n\ separaci\u00F3n\ de\ responsabilidades\ (SoC).</p>\r\n
+comment1.params=sClientes
+comment1.target=GUIPanelListarClientes(Remontando.util.ServicioClientes)
+comment1.text=\r\n\ Construye\ el\ panel\ dedicado\ al\ listado\ general\ de\ clientes.\r\n\ @param\ sClientes\ servicio\ encargado\ de\ obtener\ y\ ordenar\ los\ clientes\r\n
+numComments=2

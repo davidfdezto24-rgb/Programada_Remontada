@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelConsultarCliente
+comment0.text=\r\n\ Panel\ gr\u00E1fico\ encargado\ de\ la\ consulta\ de\ un\ cliente\ por\ su\ ID.\r\n\ Este\ panel\ forma\ parte\ de\ la\ vista\ (GUI)\ y\ \u00FAnicamente\ maneja\ la\r\n\ interacci\u00F3n\ con\ el\ usuario.\ La\ l\u00F3gica\ de\ negocio\ se\ mantiene\ en\r\n\ la\ clase\ ServicioClientes,\ cumpliendo\ as\u00ED\ la\ separaci\u00F3n\ de\ responsabilidades.\r\n\ <p>El\ panel\ permite\ escribir\ un\ ID,\ presionar\ un\ bot\u00F3n\ y\ visualizar\r\n\ en\ pantalla\ los\ datos\ b\u00E1sicos\ del\ cliente\ consultado.</p>\r\n
+comment1.params=sClientes
+comment1.target=GUIPanelConsultarCliente(Remontando.util.ServicioClientes)
+comment1.text=\r\n\ Construye\ el\ panel\ de\ consulta\ de\ cliente.\r\n\r\n\ @param\ sClientes\ referencia\ al\ servicio\ encargado\ de\ gestionar\ clientes\r\n
+numComments=2

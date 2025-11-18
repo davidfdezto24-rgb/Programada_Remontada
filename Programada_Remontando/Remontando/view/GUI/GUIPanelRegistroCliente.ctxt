@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelRegistroCliente
+comment0.text=\r\n\ Panel\ gr\u00E1fico\ encargado\ de\ registrar\ un\ nuevo\ cliente\ en\ el\ sistema.\r\n\ Este\ panel\ pertenece\ a\ la\ capa\ de\ presentaci\u00F3n\ (GUI)\ y\ se\ limita\ a\r\n\ interactuar\ con\ el\ usuario,\ delegando\ toda\ la\ l\u00F3gica\ de\ negocio\ al\r\n\ servicio\ ServicioClientes,\ en\ cumplimiento\ con\ el\ principio\ de\r\n\ separaci\u00F3n\ de\ responsabilidades\ (SoC).\r\n\r\n\ <p>El\ panel\ contiene\ un\ peque\u00F1o\ formulario\ con\ campos\ para\ ID,\ nombre\r\n\ y\ correo\ electr\u00F3nico,\ adem\u00E1s\ de\ un\ bot\u00F3n\ que\ ejecuta\ el\ registro.\r\n
+comment1.params=sClientes
+comment1.target=GUIPanelRegistroCliente(Remontando.util.ServicioClientes)
+comment1.text=\r\n\ Construye\ el\ panel\ que\ permite\ registrar\ clientes.\r\n\ @param\ sClientes\ servicio\ encargado\ de\ gestionar\ los\ clientes\r\n
+numComments=2

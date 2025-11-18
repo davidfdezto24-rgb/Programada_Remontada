@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GeneradorCodigo
+comment0.text=\r\n\ Clase\ utilitaria\ encargada\ de\ generar\ c\u00F3digos\ consecutivos\ para\ los\ clientes.\r\n\ Cada\ vez\ que\ se\ llama\ al\ m\u00E9todo,\ se\ devuelve\ un\ c\u00F3digo\r\n\ con\ el\ formato\ "CLI-X",\ donde\ X\ aumenta\ secuencialmente.\r\n
+comment1.params=
+comment1.target=java.lang.String\ siguiente()
+comment1.text=\r\n\ Devuelve\ el\ siguiente\ c\u00F3digo\ disponible\ con\ el\ formato\ "CLI-X".\r\n\r\n\ @return\ c\u00F3digo\ \u00FAnico\ de\ cliente\ generado\ autom\u00E1ticamente\r\n
+numComments=2

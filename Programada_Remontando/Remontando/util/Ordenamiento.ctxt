@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Ordenamiento
+comment0.text=\r\n\ Clase\ utilitaria\ encargada\ de\ realizar\ ordenamientos\ simples\ sobre\ listas\ de\ clientes\ e\ instrumentos.\r\n\ El\ proyecto\ solicita\ un\ enfoque\ arcaico\ y\ sencillo,\ por\ lo\ que\ aqu\u00ED\ se\r\n\ utiliza\ el\ algoritmo\ Bubble\ Sort,\ el\ cual\ es\ f\u00E1cil\ de\ entender\ y\ suficiente\r\n\ para\ los\ tama\u00F1os\ de\ listas\ esperados\ en\ este\ sistema\ acad\u00E9mico.\r\n\ no\ crea\ objetos\ ni\ realiza\ validaciones.\r\n
+comment1.params=lista
+comment1.target=void\ ordenarClientes(java.util.ArrayList)
+comment1.text=\r\n\ Ordena\ alfab\u00E9ticamente\ una\ lista\ de\ clientes\ seg\u00FAn\ su\ nombre.\r\n\ El\ ordenamiento\ se\ realiza\ usando\ el\ algoritmo\ Bubble\ Sort.\r\n\r\n\ @param\ lista\ lista\ de\ clientes\ a\ ordenar\r\n
+comment2.params=lista
+comment2.target=void\ ordenarInstrumentos(java.util.ArrayList)
+comment2.text=\r\n\ Ordena\ una\ lista\ de\ instrumentos\ seg\u00FAn\ su\ monto,\r\n\ de\ forma\ ascendente.\ Implementado\ usando\ Bubble\ Sort.\r\n\ @param\ lista\ lista\ de\ instrumentos\ a\ ordenar\r\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelEliminarCliente
+comment0.text=\r\n\ Panel\ gr\u00E1fico\ encargado\ de\ eliminar\ un\ cliente\ del\ sistema.\r\n\ Permite\ ingresar\ un\ ID\ y\ solicitar\ su\ eliminaci\u00F3n\ mediante\ un\ bot\u00F3n.\r\n\ <p>Este\ panel\ forma\ parte\ de\ la\ capa\ de\ presentaci\u00F3n\ (GUI)\ y\ \u00FAnicamente\r\n\ se\ encarga\ de\ la\ interacci\u00F3n\ con\ el\ usuario.\ La\ l\u00F3gica\ de\ negocio,\r\n\ verificaci\u00F3n\ de\ existencia\ y\ eliminaci\u00F3n\ del\ cliente\ se\ encuentra\ en\r\n\ la\ clase\ ServicioClientes,\ cumpliendo\ con\ la\ separaci\u00F3n\ de\r\n\ responsabilidades\ (SoC).\r\n
+comment1.params=sClientes
+comment1.target=GUIPanelEliminarCliente(Remontando.util.ServicioClientes)
+comment1.text=\r\n\ Construye\ el\ panel\ para\ eliminar\ un\ cliente,\ mostrando\ el\ campo\r\n\ para\ ingresar\ el\ ID\ y\ el\ bot\u00F3n\ para\ ejecutar\ la\ acci\u00F3n.\r\n\ @param\ sClientes\ servicio\ encargado\ de\ gestionar\ a\ los\ clientes\r\n
+numComments=2

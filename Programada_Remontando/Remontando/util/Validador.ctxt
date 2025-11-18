@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Validador
+comment0.text=\r\n\ Clase\ utilitaria\ encargada\ de\ validar\ los\ datos\ ingresados\ por\ el\ usuario,\r\n\ tanto\ en\ la\ vista\ CLI\ como\ en\ la\ vista\ GUI.\ Su\ funci\u00F3n\ es\ garantizar\ la\r\n\ robustez\ de\ la\ entrada\ seg\u00FAn\ los\ requerimientos\ del\ proyecto,\ cumpliendo\r\n\ con\ la\ separaci\u00F3n\ de\ responsabilidades\ (SoC),\ ya\ que\ no\ manipula\ modelos\r\n\ ni\ l\u00F3gica\ de\ negocio.\r\n\r\n\ <p>Incluye\ validaciones\ de\ texto\ obligatorio,\ formato\ de\ correo,\r\n\ montos,\ d\u00EDas\ y\ monedas\ permitidas.</p>\r\n
+comment1.params=valor\ campo
+comment1.target=void\ texto(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Valida\ que\ un\ texto\ no\ sea\ nulo\ ni\ vac\u00EDo.\r\n\ @param\ valor\ texto\ a\ verificar\r\n\ @param\ campo\ nombre\ del\ campo\ (para\ mostrar\ en\ el\ error)\r\n\ @throws\ IllegalArgumentException\ si\ el\ texto\ es\ nulo\ o\ vac\u00EDo\r\n
+comment2.params=correo
+comment2.target=void\ correo(java.lang.String)
+comment2.text=\r\n\ Valida\ que\ el\ correo\ electr\u00F3nico\ tenga\ un\ formato\ correcto.\r\n\ @param\ correo\ correo\ a\ validar\r\n\ @throws\ IllegalArgumentException\ si\ el\ formato\ no\ es\ v\u00E1lido\r\n
+comment3.params=monto
+comment3.target=void\ monto(double)
+comment3.text=\r\n\ Valida\ que\ el\ monto\ sea\ mayor\ a\ cero.\r\n\ @param\ monto\ valor\ del\ monto\r\n\ @throws\ IllegalArgumentException\ si\ el\ monto\ es\ menor\ o\ igual\ a\ cero\r\n
+comment4.params=dias
+comment4.target=void\ dias(int)
+comment4.text=\r\n\ Valida\ que\ la\ cantidad\ de\ d\u00EDas\ sea\ mayor\ a\ cero.\r\n\ @param\ dias\ cantidad\ de\ d\u00EDas\r\n\ @throws\ IllegalArgumentException\ si\ los\ d\u00EDas\ son\ menores\ o\ iguales\ a\ cero\r\n
+comment5.params=moneda
+comment5.target=java.lang.String\ moneda(java.lang.String)
+comment5.text=\r\n\ Valida\ la\ moneda\ ingresada\ y\ la\ normaliza\ a\ may\u00FAsculas.\r\n\ Solo\ se\ aceptan\ CRC\ y\ USD.\r\n\ @param\ moneda\ texto\ ingresado\ por\ el\ usuario\r\n\ @return\ moneda\ en\ formato\ normalizado\ (CRC\ o\ USD)\r\n\ @throws\ IllegalArgumentException\ si\ la\ moneda\ no\ es\ v\u00E1lida\r\n
+numComments=6

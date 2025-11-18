@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelListarInstrumentosGlobal
+comment0.text=\r\n\ Panel\ encargado\ de\ mostrar\ todos\ los\ instrumentos\ registrados\r\n\ en\ el\ sistema,\ ordenados\ por\ monto.\ Este\ panel\ pertenece\ a\r\n\ la\ vista\ (GUI)\ y\ \u00FAnicamente\ controla\ la\ interacci\u00F3n\ con\ el\ usuario,\r\n\ manteniendo\ la\ separaci\u00F3n\ de\ responsabilidades\ con\ respecto\ a\ la\r\n\ l\u00F3gica\ de\ negocio,\ la\ cual\ reside\ en\ ServicioInstrumentos.\r\n
+comment1.params=sInstrumentos
+comment1.target=GUIPanelListarInstrumentosGlobal(Remontando.util.ServicioInstrumentos)
+comment1.text=\r\n\ Construye\ un\ panel\ que\ permite\ listar\ todos\ los\ instrumentos\r\n\ globales\ almacenados\ en\ el\ sistema.\r\n\ @param\ sInstrumentos\ servicio\ que\ administra\ la\ lista\ global\ de\ instrumentos\ financieros\r\n
+numComments=2

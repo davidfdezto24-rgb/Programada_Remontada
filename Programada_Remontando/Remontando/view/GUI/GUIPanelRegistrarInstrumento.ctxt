@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GUIPanelRegistrarInstrumento
+comment0.text=\r\n\ Panel\ encargado\ de\ registrar\ un\ instrumento\ financiero\ asociado\ a\ un\ cliente.\r\n\ Pertenece\ exclusivamente\ a\ la\ capa\ de\ presentaci\u00F3n\ (GUI),\ mientras\ que\ toda\ la\r\n\ l\u00F3gica\ de\ negocio\ \u2014validaci\u00F3n,\ c\u00E1lculos,\ asignaci\u00F3n\ y\ creaci\u00F3n\ del\ instrumento\u2014\r\n\ se\ mantiene\ en\ las\ clases\ de\ servicio,\ cumpliendo\ as\u00ED\ la\ separaci\u00F3n\ de\r\n\ responsabilidades\ (SoC).\r\n\r\n\ <p>El\ panel\ contiene\ un\ formulario\ simple\ donde\ se\ ingresan\ los\ datos\ del\r\n\ con\ el\ usuario.\ Tras\ registrar\ el\ instrumento,\ se\ muestra\ una\ salida\ formateada\r\n\ id\u00E9ntica\ a\ la\ utilizada\ en\ la\ vista\ CLI.</p>\r\n
+comment1.params=sClientes\ sInstrumentos
+comment1.target=GUIPanelRegistrarInstrumento(Remontando.util.ServicioClientes,\ Remontando.util.ServicioInstrumentos)
+comment1.text=\r\n\ Construye\ el\ panel\ de\ registro\ de\ instrumentos\ financieros.\r\n\ @param\ sClientes\ servicio\ que\ administra\ los\ clientes\r\n\ @param\ sInstrumentos\ servicio\ que\ administra\ los\ instrumentos\r\n
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GUIPrincipal
+comment0.text=\r\n\ Ventana\ principal\ de\ la\ aplicaci\u00F3n\ GUI\ para\ el\ sistema\ financiero.\r\n\ Muestra\ un\ men\u00FA\ lateral\ con\ las\ opciones\ principales\ y\ carga\ din\u00E1micamente\r\n\ el\ panel\ correspondiente\ seg\u00FAn\ la\ funcionalidad\ seleccionada.\r\n\r\n\ <p>Esta\ clase\ funciona\ como\ un\ contenedor\ general\ que\ administra\ los\ paneles\r\n\ de\ registro,\ consulta,\ listado\ y\ eliminaci\u00F3n.\ Mantiene\ la\ separaci\u00F3n\ de\r\n\ responsabilidades\ porque\ NO\ implementa\ l\u00F3gica\ de\ negocio,\ \u00FAnicamente\ l\u00F3gica\r\n\ de\ presentaci\u00F3n.\r\n
+comment1.params=
+comment1.target=GUIPrincipal()
+comment1.text=\r\n\ Construye\ la\ ventana\ principal,\ configura\ el\ men\u00FA\ lateral\r\n\ y\ define\ los\ eventos\ para\ cambiar\ entre\ paneles.\r\n
+comment2.params=nuevo
+comment2.target=void\ cambiarPanel(javax.swing.JPanel)
+comment2.text=\r\n\ Reemplaza\ el\ panel\ central\ por\ uno\ nuevo.\r\n\ Permite\ navegar\ entre\ las\ diferentes\ funcionalidades\ del\ sistema.\r\n\ @param\ nuevo\ panel\ que\ se\ desea\ mostrar\ en\ pantalla\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ M\u00E9todo\ principal\ de\ ejecuci\u00F3n\ del\ sistema\ en\ modo\ GUI.\r\n\ Crea\ una\ instancia\ de\ la\ ventana\ y\ la\ hace\ visible.\r\n\ @param\ args\ argumentos\ de\ ejecuci\u00F3n\ (no\ utilizados)\r\n
+numComments=4
